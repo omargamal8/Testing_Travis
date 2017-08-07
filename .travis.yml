@@ -4,3 +4,7 @@ python:
     - 3.6
 script:
   python main.py
+
+env:
+    -python 3.6
+    env: DASK_VERSION=0.15.1
